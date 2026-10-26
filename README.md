@@ -160,15 +160,15 @@ flowchart TB
 ```
 aisleway/
 ├── app/
-│   ├── domain/                 # pure logic, no I/O
-│   │   ├── money.py            # Money value object (cents)
-│   │   ├── products.py         # Product, weight, size, shippable flag
-│   │   ├── cart.py             # Cart and line items
-│   │   ├── pricing.py          # subtotal, minimum order, totals
-│   │   ├── delivery.py         # parcel size selection, delivery fee
-│   │   ├── orders.py           # Order entity and state machine
-│   │   └── errors.py           # domain exceptions
-│   ├── ports/                  # interfaces the core depends on
+│   ├── domain/                 // pure logic, no I/O
+│   │   ├── money.py            // Money value object (cents)
+│   │   ├── products.py         // Product, weight, size, shippable flag
+│   │   ├── cart.py             // Cart and line items
+│   │   ├── pricing.py          // subtotal, minimum order, totals
+│   │   ├── delivery.py         // parcel size selection, delivery fee
+│   │   ├── orders.py           // Order entity and state machine
+│   │   └── errors.py           // domain exceptions
+│   ├── ports/                  // interfaces the core depends on
 │   │   ├── payments.py
 │   │   ├── courier.py
 │   │   ├── repositories.py
